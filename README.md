@@ -1,45 +1,56 @@
-# Awesome-Multilingual-Website-Content-Management
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Multilingual Website &amp; Content Management Banner" width="100%" />
+</p>
 
-## Top Multilingual Website & Content Management Ecosystem
+# 🌐 Awesome Multilingual Website & Content Management
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Translation Workflows, Localized CMS & Self-Hosted Multilingual Infrastructure*  
-**Last updated: November 2026**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Multilingual-Website-Content-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Multilingual-Website-Content-Management?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Multilingual-Website-Content-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Multilingual-Website-Content-Management?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Multilingual-Website-Content-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Multilingual Website & Content Management**. These tools enable organizations to translate and localize website content, manage translation workflows across teams, and serve localized experiences—without duplicating content or relying entirely on third-party cloud services.
-
-**Examples** include HubSpot Multilingual Content, Weglot, Lokalise, Smartling, Transifex, Phrase, Crowdin, Localize, WPML, and Bablic (the category leaders).
-
-**Open-source emphasis**: Multilingual CMS is a domain where open-source tooling is **genuinely mature for WordPress-based sites and developer workflows, but fragmented for standalone CMS and SaaS-equivalent translation management**. Projects range from self-hosted translation engines (**LibreTranslate**) and comprehensive developer platforms (**Weblate**, **Tolgee**, **inlang**, **Traduora**) to specialized CMS plugins and architectures (**wagtail-localize**, **qTranslate-XT**, **Polylang**, **Multilify**).
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+> 🚀 **The definitive, curated landscape of enterprise SaaS translation platforms and open-source multilingual Content Management Systems (CMS).**  
+> Discover best-in-class solutions for website localization (l10n), internationalization (i18n), Translation Management Systems (TMS), continuous translation workflows, and self-hosted translation infrastructure.
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
 
-The global translation management systems (TMS) and website localization market is estimated at approximately **$10.7B to $13.5B**, expanding at a ~17% CAGR toward $20B+ driven by neural machine translation (NMT), LLM-based continuous localization, and cross-border digital commerce. The sector exhibits **moderate fragmentation with high concentration at the enterprise apex**: while horizontal marketing giants (e.g., HubSpot) and consolidated TMS leaders (Phrase, Smartling, Transifex/XTM) capture massive enterprise budgets, specialized proxy-based vendors (Weglot) and open-source headless ecosystems retain significant fragmented developer and SMB market share.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Translation Platforms](#️-saas--hosted-translation-platforms)
+- [💻 Open-Source GitHub Projects & Frameworks](#-open-source-github-projects--frameworks)
+- [🌟 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#️-disclaimer)
 
 ---
 
-## SaaS/Hosted Platforms
+## 📊 Sector Overview & Market Dynamics
 
-| Platform | Revenue / Valuation (Est.) | Starting Tier Pricing | Free Tier / Trial Limits | Description |
+The global **Translation Management Systems (TMS)** and website localization software sector is valued at approximately **$10.7B to $13.5B**, compounding at an estimated **~17% CAGR** toward **$20B+** by 2030+. Key tailwinds include neural machine translation (NMT), LLM-based autonomous translation agents, continuous CI/CD localization pipelines, and rapid cross-border eCommerce expansion.
+
+The sector reflects **moderate overall fragmentation with sharp concentration at the enterprise tier**:
+- **Consolidated Enterprise Leaders**: Multi-product marketing giants like HubSpot along with dedicated enterprise TMS platforms (Phrase, Smartling, Transifex/XTM) capture dominant enterprise IT and corporate spend.
+- **Proxy & No-Code Web Translation**: Turnkey DOM-proxy innovators like Weglot and Bablic deliver seamless translation without back-end changes for SMBs.
+- **Developer-Driven & Headless Stacks**: Rapidly expanding developer-first platforms (Lokalise, Crowdin) and self-hosted open-source engines (LibreTranslate, Weblate, Tolgee, inlang) cater to developer autonomy, data privacy, and custom headless CMS workflows.
+
+---
+
+## ☁️ SaaS & Hosted Translation Platforms
+
+| 🏢 Platform | 💰 Revenue / Valuation (Est.) | 🏷️ Starting Tier Pricing | 🎁 Free Tier / Trial Limits | 📝 Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **[HubSpot Multilingual Content](https://www.hubspot.com/)** | ~$12.7B Market Cap (~$3.13B FY25 Revenue) | $20/seat/month (Content Hub Starter; promo from $9/mo) | Free-forever plan allows up to 3 language variations per page/post; Starter supports 50 languages | Integrated multilingual CMS capabilities with localized subdomains, hreflang tags, and localized navigation. |
 | **[Phrase](https://phrase.com/)** | ~$50M–$70M+ ARR (Backing by The Carlyle Group) | $27/month (Freelancer plan; billed annually at $23/mo) | 14-day free trial across Phrase Language Intelligence Platform (includes TMS and Strings) | Enterprise-grade localization suite featuring continuous developer workflows, translation memory, and Figma design synchronization. |
 | **[Smartling](https://www.smartling.com/)** | ~$35M–$60M Revenue ($250M+ Historical Valuation) | $0/mo base for Core tier; paid translation starts at $0.0075/word (MT) / $0.06/word (AI) | Free Core tier (basic workflow, drag-and-drop CAT tool, 180-day TM retention) or 14-day full feature trial | Cloud enterprise translation management platform with automated quality scoring, visual context, and direct CMS connectors. |
 | **[Weglot](https://www.weglot.com/)** | ~€25M ARR (~$27M+ Revenue) | €15/month (~$16/mo billed monthly; €150/year Starter) | Free-forever plan limited to 1 language and up to 2,000 translated words (2,000 requests/mo) | Turnkey website translation proxy compatible with WordPress, Shopify, and Webflow featuring automated DOM detection and visual editor. |
 | **[Lokalise](https://lokalise.com/)** | ~$15M–$50M ARR (~$250M–$500M Valuation) | $140/month (Explorer tier billed annually at $120/mo) | 14-day free trial with Explorer feature access (up to 5 projects, 5 seats, 10 languages, 60,000 processed words) | Developer-centric localization platform providing continuous translation workflows, CLI/API tooling, and CI/CD pipelines. |
-| **[Crowdin](https://crowdin.com/)** | ~$13M–$14M ARR | $59/month (Pro tier; billed annually at $48/mo) | Free-forever plan limited to 1 private project, 60,000 hosted words, 1 integration, and unlimited public projects | Agile localization management platform featuring a extensive integration marketplace, GitHub Actions, and in-context translation editors. |
+| **[Crowdin](https://crowdin.com/)** | ~$13M–$14M ARR | $59/month (Pro tier; billed annually at $48/mo) | Free-forever plan limited to 1 private project, 60,000 hosted words, 1 integration, and unlimited public projects | Agile localization management platform featuring an extensive integration marketplace, GitHub Actions, and in-context translation editors. |
 | **[Transifex](https://www.transifex.com/)** | ~$5M–$14M Revenue (Acquired by XTM International) | $140/month (Starter tier; billed annually at $120/mo) | 14-day free trial with full platform access (free tier strictly restricted to qualifying open-source projects) | Continuous localization platform equipped with AI translation workflows, translation memory, live website proxy, and developer SDKs. |
 | **[WPML](https://wpml.org/)** | ~$5M–$10M+ ARR (OnTheGoSystems) | €39/year (~$42/yr for Multilingual Blog; €99/yr for Multilingual CMS) | No free tier or trial; offered with a 30-day money-back guarantee (includes 22,500 free automatic translation credits on CMS plan) | The leading WordPress multilingual plugin ecosystem powering enterprise sites with deep WooCommerce, Elementor, and string translation support. |
 | **[Localize](https://localizejs.com/)** | ~$3.1M ARR (~$1.1M Raised) | ~$25,000/year (Custom quote; legacy starting tiers from $50–$625/mo based on pageviews) | 15-day free trial with complete platform capabilities and script-based translation inspection | Website and application translation proxy with automatic string scraping, delivery CDN, and team collaboration tooling. |
@@ -47,11 +58,11 @@ The global translation management systems (TMS) and website localization market 
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects & Frameworks
 
-The following open-source projects provide translation management, localization infrastructure, and multilingual CMS extensions. Sorted by GitHub stars (descending):
+Explore top community-driven translation engines, developer-first localization frameworks, and multilingual CMS plugins. Sorted by GitHub stars (descending):
 
-| Project | Stars | License | Primary Focus | Description |
+| 🛠️ Project | ⭐ Stars | 📜 License | 🎯 Primary Focus | 📖 Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **[LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)** | [![Stars](https://img.shields.io/github/stars/LibreTranslate/LibreTranslate?style=social&color=white)](https://github.com/LibreTranslate/LibreTranslate/stargazers) | AGPL-3.0 | Translation API Engine | Free, open-source, and self-hosted machine translation engine powered by Argos Translate; 100% offline-capable REST API. |
 | **[Weblate](https://github.com/WeblateOrg/weblate)** | [![Stars](https://img.shields.io/github/stars/WeblateOrg/weblate?style=social&color=white)](https://github.com/WeblateOrg/weblate/stargazers) | GPL-3.0 | Translation Management (TMS) | Leading web-based localization platform with deep Git, Mercurial, and Subversion version control integration, continuous localization, and glossary tooling. |
@@ -79,22 +90,37 @@ The following open-source projects provide translation management, localization 
 
 ---
 
-## How to Contribute
+## 🌟 Star History
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format and tables).
-3. Include: name, link, specific pricing/star metrics, and a concise 1–2 sentence description.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Multilingual CMS platforms handling translated content must comply with applicable regulations and content accuracy standards; **machine translation should be reviewed for legal, medical, and safety-critical content**—YUZ-TRA explicitly warns it guarantees no translation correctness.
-- **Open-source multilingual CMS is mature for WordPress and developer workflows, but varies across platforms**—Multilify, SysOpenLang, Lang Forge, and YUZ-TRA provide free alternatives to WPML and Polylang. However, **no open-source project matches Weglot's automatic DOM translation** (which works on any site without CMS integration) or WPML's extensive commercial ecosystem. For standalone systems, LibreTranslate, Weblate, and Tolgee provide developer-focused localization infrastructure.
-- Verify license terms for commercial use.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Multilingual-Website-Content-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Multilingual-Website-Content-Management&type=date&legend=top-left)
 
 ---
 
-**Made for localization managers, web developers, and organizations choosing their multilingual content stack.**
+## 🤝 How to Contribute
+
+Contributions are always welcome! 🚀
+
+1. 🍴 **Fork** this repository.
+2. 🌿 Create your feature branch (`git checkout -b feature/amazing-l10n-tool`).
+3. ✏️ Add/update your project in `README.md` keeping descriptions factual, concise, and structured.
+4. 📬 Submit a **Pull Request** with a brief summary of the project and its licensing/pricing model.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and supporting this open-source curation! 🙏
+
+If you found this repository useful for choosing your multilingual architecture, managing website localization, or benchmarking translation platforms, please consider:
+- ⭐ **Starring** the repository to boost visibility.
+- 🍴 **Forking** and contributing additional projects or updates.
+- 📢 **Sharing** it with developers, localization managers, and DevOps teams.
+- ☕ **Buying a coffee / sponsoring** the maintainer via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+- This directory is a **community-curated index** provided for research, architectural comparison, and informational purposes. Inclusion does not imply official endorsement.
+- Multilingual CMS platforms handling customer-facing translated content must adhere to relevant industry compliance regulations. **Machine-translated text should undergo human review for legal, medical, and mission-critical documentation**.
+- Always verify licensing conditions and SLA tiers directly with platform vendors prior to enterprise commercial deployment.
