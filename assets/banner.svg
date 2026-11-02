@@ -7,7 +7,7 @@
       <stop offset="100%" stop-color="#1e1b4b" />
     </linearGradient>
 
-    <!-- Card & Element Gradients -->
+    <!-- Card and Element Gradients -->
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" />
       <stop offset="50%" stop-color="#818cf8" />
@@ -31,11 +31,11 @@
     </filter>
   </defs>
 
-  <style>
+  <style><![CDATA[
     .bg { fill: url(#bgGrad); }
     .grid-line { stroke: rgba(255, 255, 255, 0.04); stroke-width: 1; }
     
-    /* Animated Glowing Nodes & Circles */
+    /* Animated Glowing Nodes and Circles */
     @keyframes pulseOrb {
       0%, 100% { transform: translateY(0px) scale(1); opacity: 0.35; }
       50% { transform: translateY(-12px) scale(1.1); opacity: 0.65; }
@@ -74,7 +74,7 @@
       font-size: 11px;
       letter-spacing: 0.5px;
     }
-  </style>
+  ]]></style>
 
   <!-- Background Base -->
   <rect width="1000" height="240" rx="16" class="bg" />
@@ -123,7 +123,7 @@
     <line x1="-45" y1="0" x2="45" y2="0" stroke="#818cf8" stroke-width="1" />
   </g>
 
-  <!-- Foreground Title and Content (Unobstructed & High Contrast) -->
+  <!-- Foreground Title and Content (Unobstructed and High Contrast) -->
   <g transform="translate(60, 45)">
     <!-- Small Category Badge -->
     <rect x="0" y="0" width="220" height="26" rx="13" fill="rgba(99, 102, 241, 0.15)" stroke="rgba(129, 140, 248, 0.4)" stroke-width="1" />
